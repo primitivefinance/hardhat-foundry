@@ -1,11 +1,8 @@
 import * as dotenv from 'dotenv'
 
+import '@nomicfoundation/hardhat-toolbox'
 import { HardhatUserConfig } from 'hardhat/types'
-import '@typechain/hardhat'
-import '@nomiclabs/hardhat-ethers'
-import '@nomiclabs/hardhat-waffle'
 import '@primitivefi/hardhat-dodoc'
-import 'hardhat-gas-reporter'
 
 dotenv.config()
 
